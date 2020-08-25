@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controlador.Contactos">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp">
+
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/pruebadeboton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:id="@+id/itemcontacto1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:onClick="Irperfil"
+            android:layout_marginBottom="5dp">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ui" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="fill_vertical"
+                android:layout_marginLeft="40dp"
+                android:text="Gonzalo Adaro" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itemcontacto2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="Irperfil"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/avatar2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="fill_vertical"
+                android:layout_marginLeft="40dp"
+                android:text="Ismael Liberona" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/itemcontacto3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="Irperfil"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/avatar3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="fill_vertical"
+                android:layout_marginLeft="40dp"
+                android:text="Armando Ulloa" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/itemcontacto4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="Irperfil"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/avatar4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="fill_vertical"
+                android:layout_marginLeft="40dp"
+                android:text="Nataly Cisternas" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/itemcontacto5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="Irperfil"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/avatar5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="fill_vertical"
+                android:layout_marginLeft="40dp"
+                android:text="Eduardo Davalos" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/itemcontacto6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="Irperfil"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/avatar6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="fill_vertical"
+                android:layout_marginLeft="40dp"
+                android:text="Ernie Terrible Quenaya" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/itemcontacto7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="Irperfil"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/avatar7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="fill_vertical"
+                android:layout_marginLeft="40dp"
+                android:text="Prof. Pinto (The Best)" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/itemcontacto8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="Irperfil"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/avatar8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="fill_vertical"
+                android:layout_marginLeft="40dp"
+                android:text="Ximena Badilla" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/itemcontacto9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="Irperfil"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/avatar9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="fill_vertical"
+                android:layout_marginLeft="40dp"
+                android:text="Jorge Diaz" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/itemcontacto10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="Irperfil"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/avatar1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="fill_vertical"
+                android:layout_marginLeft="40dp"
+                android:text="La toxica" />
+        </LinearLayout>
+
+
+
+
+        <!-- <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" /> -->
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</FrameLayout>
